@@ -11,6 +11,10 @@ class Driver {
 
     store.drivers.push(this);
   };
+
+  trips() {
+    
+  };
 };
 
 class Passenger {
@@ -28,6 +32,8 @@ class Trip {
     this.driver = driverId;
     this.id = ++tripId;
 
-    store.trips.push(this)
+    store.trips.push(this);
   };
+
+  
 };
