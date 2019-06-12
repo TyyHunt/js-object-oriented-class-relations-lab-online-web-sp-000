@@ -13,7 +13,7 @@ class Driver {
   };
 
   trips() {
-    
+
   };
 };
 
@@ -35,5 +35,5 @@ class Trip {
     store.trips.push(this);
   };
 
-  
+
 };
