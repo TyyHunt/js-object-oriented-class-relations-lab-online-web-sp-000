@@ -1,4 +1,4 @@
-let store = { drivers: [], passengers: []};
+let store = { drivers: [], passengers: [] };
 
 let driverId = 0;
 let passengerId = 0;
@@ -17,6 +17,6 @@ class Passenger {
     this.name = name
     this.id = ++passengerId
 
-    store.
+    store.passengers
   }
 }
