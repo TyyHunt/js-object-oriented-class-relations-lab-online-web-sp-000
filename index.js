@@ -68,7 +68,7 @@ class Trip {
   passenger() {
     return store.passengers.filter(
       function(passenger) {
-        return passenger.idd = this.passengerId;
+        return passenger.idd === this.passengerId;
       }.bind(this)
     );
   };
@@ -76,7 +76,7 @@ class Trip {
   driver() {
     return store.drivers.filter(
       function(driver) {
-        return driver.tripId = this.id;
+        return driver.id === this.driverId;
       }.bind(this)
     );
   };
