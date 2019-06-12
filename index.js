@@ -45,6 +45,15 @@ class Passenger {
       }.bind(this)
     );
   };
+
+  drivers() {
+    return store.driers.filter(
+      function(driver) {
+        return driver.passengerId = this.id;
+      }.bind(this)
+    );
+  };
+
 };
 
 class Trip {
